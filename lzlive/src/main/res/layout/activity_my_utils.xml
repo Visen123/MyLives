@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeFragment">
+    <include layout="@layout/tool_bar"/>
+
+    <TextView
+        android:id="@+id/tv_myutils_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/btn_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳到消息页面"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/btn_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳到服务界面"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/btn_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳到广播界面"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/btn_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳到Banner"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/btn_cehuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="侧滑删除"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/btn_mine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳到我的界面"
+        android:layout_marginBottom="6dp"/>
+
+    <com.app.lizhilives.utils.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:civ_border_color="#222222"
+        app:civ_border_width="2dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/dialog_recommend_top_bg"/>
+
+    <com.app.lizhilives.utils.CircleTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="我的"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center"
+        app:background_color="@color/colorAccent"/>
+
+
+</LinearLayout>

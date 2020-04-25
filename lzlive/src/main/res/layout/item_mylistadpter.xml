@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relative_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:background="@color/white"
+        android:layout_margin="6dp">
+
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/tv_cy_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/tv_cy_time"
+        android:maxLines="1"
+        android:maxLength="4"
+        android:visibility="visible"
+        android:textColor="#ff333333"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv_cy_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffBBBBBB"
+        android:textSize="13sp"/>
+    </RelativeLayout>
+</RelativeLayout>
