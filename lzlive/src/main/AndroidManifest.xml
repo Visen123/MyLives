@@ -123,7 +123,7 @@
         <!-- Umeng友盟 -->
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="5d11ed200cafb2128a000948" /> <!-- UMENG_APPKEY要替换 -->
+            android:value="友盟key" /> <!-- UMENG_APPKEY要替换 -->
         <meta-data
             android:name="UMENG_CHANNEL"
             android:value="Other" /> <!-- 微信分享 -->
@@ -142,7 +142,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="tencent101522953" />
+                <data android:scheme="腾讯id" />
             </intent-filter>
         </activity>
         <activity
