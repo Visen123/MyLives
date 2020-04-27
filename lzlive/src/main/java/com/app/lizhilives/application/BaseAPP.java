@@ -66,11 +66,10 @@ public class BaseAPP extends Application {
                 "null");
         UMConfigure.setLogEnabled(false);
         MobclickAgent.setPageCollectionMode(MobclickAgent.PageMode.AUTO);
-        PlatformConfig.setWeixin("wx29b8ac37da26a2a2", "ebe4bb51ae8acff11d801caab07bb900");
-        PlatformConfig.setQQZone("101522953", "8c8a89d2814aee7a7b0d150fae39a");
+        PlatformConfig.setWeixin("微信id", "微信密钥");
+        PlatformConfig.setQQZone("QQid", "QQ密钥");
 
-     /*   PlatformConfig.setWeixin("wxe7c2ed7bbd16c4b4", "c6087d5249b96aced4270349b52073ea");
-        PlatformConfig.setQQZone("1105250483", "WtkL6Eq71TLnV3Dk");*/
+   
     }
 
 
