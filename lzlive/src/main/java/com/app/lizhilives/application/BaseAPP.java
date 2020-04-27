@@ -62,7 +62,7 @@ public class BaseAPP extends Application {
         }
 
         //初始化 友盟SDK
-        UMConfigure.init(this, "5d11ed200cafb2128a000948", "Umeng", UMConfigure.DEVICE_TYPE_PHONE,
+        UMConfigure.init(this, "友盟统计id", "Umeng", UMConfigure.DEVICE_TYPE_PHONE,
                 "null");
         UMConfigure.setLogEnabled(false);
         MobclickAgent.setPageCollectionMode(MobclickAgent.PageMode.AUTO);
